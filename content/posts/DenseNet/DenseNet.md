@@ -15,7 +15,7 @@ summary: "This is my first post on my personal site using Hugo LoveIt theme. Exp
 1. 组成
    
     <figure>
-    <img src="./denseBlock.jpg" alt="Dense block" style="width:100%; height:auto; display:block;">
+    <img src="denseBlock.jpg" alt="Dense block" style="width:100%; height:auto; display:block;">
     <figcaption style="text-align:center;">
         A 5-layer dense block with a growth rate of k = 4. Each layer takes all preceding feature-maps as input.
     </figcaption>

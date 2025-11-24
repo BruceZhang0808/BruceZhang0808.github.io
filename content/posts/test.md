@@ -1,4 +1,5 @@
 ---
+weight: 
 title: "Just a test"
 subtitle: "Learning Hugo + LoveIt"
 date: 2025-07-31T10:00:00+02:00

@@ -1,7 +1,7 @@
 ---
 title: "Iterator in python"
 subtitle: "Learning Hugo + LoveIt"
-date: 2025-07-31T10:00:00+02:00
+date: '2025-11-24T19:34:57+08:00'
 draft: false
 tags: ["hugo", "loveit", "learning"]
 categories: ["blog"]
@@ -10,7 +10,7 @@ author: "Your Name"
 summary: "This is my first post on my personal site using Hugo LoveIt theme. Exploring markdown, code blocks, images, and shortcodes."
 ---
 
-# insert_items
+## insert_items
 
 - 在当前元素后面插入元素后，改变了`len(s)`，故在迭代时不可写`for i in range(len(s))`这样限制迭代次数的语句；并且在迭代时，主动跳过插入的元素，防止`large_s = [1, 4, 8]`反复插入4
 
@@ -63,7 +63,7 @@ def insert_items(s: list[int], before: int, after: int) -> list[int]:
     return s
 ```
 
-# repeated
+## repeated
 
 ```python
 from typing import Iterator  # "t: Iterator[int]" means t is an iterator that yields integers
@@ -119,7 +119,7 @@ def repeated(t: Iterator[int], k: int) -> int:
         return None
 ```
 
-# partial_reverse
+## partial_reverse
 
 python里面`a, b, c, ... = ..., c, b, a`语句是给等号右边创建一个元组,然后解包后赋值给等号左边的元素.
 
@@ -142,7 +142,7 @@ def partial_reverse(s: list[int], start: int) -> None:
         start, end = start + 1, end - 1
 ```
 
-拓展**旋转数组**算法,要求原地反转,空间复杂度O(1)
+拓展**旋转数组**算法,要求原地反转,空间复杂度$O(1)$
 
 1. 反转整个数组
 2. 反转前k个元素

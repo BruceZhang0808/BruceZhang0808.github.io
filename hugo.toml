@@ -147,7 +147,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # 网站标题, 用于 Open Graph 和 Twitter Cards
   title = "Bruce Zhang"
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
-  description = "大家好，我是Bruce，我将在这里分享我的学习记录"
+  description = "Bruce's Personal Blog"
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = ["/logo.png"]
 
@@ -168,9 +168,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # LOGO 的 URL
       logo = ""
       # 标题名称
-      name = ""
+      name = "Bruce's Blog"
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      pre = ""
+      pre = "<i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i>"
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
       # LoveIt 新增 | 0.2.5 是否为标题显示打字机动画
@@ -178,13 +178,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   # 页面底部信息配置
   [params.footer]
-    enable = false
+    enable = true
     # LoveIt 新增 | 0.2.0 自定义内容 (支持 HTML 格式)
     custom = ''
     # LoveIt 新增 | 0.2.0 是否显示 Hugo 和主题信息
     hugo = false
     # LoveIt 新增 | 0.2.0 是否显示版权信息
-    copyright = false
+    copyright = true
     # LoveIt 新增 | 0.2.0 是否显示作者
     author = true
     # 网站创立年份
@@ -192,7 +192,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
     icp = ""
     # 许可协议信息 (支持 HTML 格式)
-    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    license = ''
 
   # LoveIt 新增 | 0.2.0 Section (所有文章) 页面配置
   [params.section]
@@ -248,6 +248,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       index = ""
       appID = ""
       searchKey = ""
+
+  # 图像处理
+  [params.image]
+    # image lazy loading
+    lazyload = true
+    # image gallery support
+    gallery = true
 
   # 主页配置
   [params.home]
