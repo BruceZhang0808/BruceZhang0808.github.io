@@ -2,22 +2,28 @@
 date = '2025-11-29T14:03:58+08:00'
 draft = true
 title = 'Change Detection'
+subtitle = "遥感变化检测相关论文简述"
+description = "遥感变化检测相关论文简述"
 author = 'BruceZhang'
+categories = ["Remote Sensing"]
+tags = ["Change Detection"]
 +++
 
 ## 1. ChangeCLIP
 
-论文：[ChangeCLIP: Remote sensing change detection with multimodal vision-language representation learning](https://www.sciencedirect.com/science/article/pii/S0924271624000042)
+**论文**：[ChangeCLIP: Remote sensing change detection with multimodal vision-language representation learning](https://www.sciencedirect.com/science/article/pii/S0924271624000042)
 
-问题：传统深度学习方法更注重视觉表征学习，忽视了多模态数据的潜力。
+**问题**：传统深度学习方法更注重视觉表征学习，忽视了多模态数据的潜力。
 
-解决：以 [CLIP](https://www.zhihu.com/tardis/zm/art/662365120?source_id=1003) 模型为基础，设计了遥感图像变化前后特征的具体提示。因此，这种方法能够构建一个富含多模先验的基础数据集，用于变化检测任务。
+**解决**：以 [CLIP](https://www.zhihu.com/tardis/zm/art/662365120?source_id=1003) 模型为基础，设计了遥感图像变化前后特征的具体提示。因此，这种方法能够构建一个富含多模先验的基础数据集，用于变化检测任务。
 
 ![ChangeCLIP](ChangCLIP.jpg "ChangeCLP")
 
 ![ChangeCLP_architecture](ChangeCLIP_arch.jpg "ChangeCLP_architecture")
 
-代码：<https://github.com/dyzy41/ChangeCLIP>
+**数据集**：LEVIR-CD, LEVIR-CD+, WHUCD, CDD, SYSU-CD 
+
+**代码**：<https://github.com/dyzy41/ChangeCLIP>
 
 ## 2. ChangeMamba
 
@@ -31,4 +37,14 @@ author = 'BruceZhang'
 
 ![ChangeMamba](ChangeMamba1.png "ChangeMamba")
 
+**数据集**：
+
+![ChangeMamba_datasets](ChangeMamba_datasets.png "ChangeMamba_datasets")
+
 代码：<https://github.com/ChenHongruixuan/MambaCD>
+
+## 3. Changer
+
+**论文**：[Changer: Feature Interaction is What You Need for Change Detection](https://arxiv.org/abs/2209.08290)
+
+**问题**：以前的主流 CD 做法都是 [孪生网络（Siamese Network）-CSDN博客](https://blog.csdn.net/m0_51507437/article/details/132526569#:~:text=%E5%AD%AA%E7%94%9F%E7%BD%91%E7%BB%9C%EF%BC%88Siamese%20Network%EF%BC%89%E6%98%AF,%E8%AF%86%E5%88%AB%E3%80%81%E7%9B%AE%E6%A0%87%E8%B7%9F%E8%B8%AA%E7%AD%89%E9%97%AE%E9%A2%98%E3%80%82) 架构
