@@ -1,13 +1,14 @@
-+++
-date = '2025-11-29T14:03:58+08:00'
-draft = true
-title = 'Change Detection'
-subtitle = "遥感变化检测相关论文简述"
-description = "遥感变化检测相关论文简述"
-author = 'BruceZhang'
-categories = ["Remote Sensing"]
-tags = ["Change Detection"]
-+++
+---
+date : '2025-11-29T14:03:58+08:00'
+draft : false
+title : 'Change Detection'
+subtitle : "遥感变化检测相关论文简述"
+description : "遥感变化检测相关论文简述"
+author : 'BruceZhang'
+categories : ["Remote Sensing"]
+tags : ["Change Detection"]
+summary: "遥感变化检测相关论文简述"
+---
 
 ## 1. ChangeCLIP
 
