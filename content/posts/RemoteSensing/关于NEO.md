@@ -10,6 +10,9 @@ tags : ["NEO"]
 summary: "NEO能否用于遥感领域？"
 ---
 
+**论文**：<https://arxiv.org/abs/2510.14979>
+**代码**：<https://github.com/EvolvingLMMs-Lab/NEO>
+
 ## 1. 这篇论文总体在干什么？
 
 论文的题目是 **“From Pixels to Words – Towards Native Vision-Language Primitives at Scale”**，核心目标是：
