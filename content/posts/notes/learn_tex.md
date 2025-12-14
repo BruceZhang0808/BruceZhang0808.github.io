@@ -1,8 +1,17 @@
+---
+title: "latex 学习笔记"
+date: '2025-12-10'
+draft: false
+tags: ["latex", "learning"]
+categories: ["notes"]
+author: "Bruce Zhang"
 
+summary: "持续更新 latex 学习笔记"
+---
 
 ## 美观的表格写法
 
-推荐网站 [Tables Generator](https://tablesgenerator.com/)，先地把表格内容填进去，再选样式为 Booktabs table style，还可以调整 Caption 和 Layout。
+推荐网站 [Tables Generator](https://tablesgenerator.com/)，先把表格内容填进去，再选样式为 Booktabs table style，还可以调整 Caption 和 Layout。
 
 ## 插入图片的方法
 

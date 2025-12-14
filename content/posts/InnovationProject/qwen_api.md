@@ -1,6 +1,6 @@
 +++
 date = '2025-12-04'
-draft = false
+draft = true
 title = 'qwen3-vl调用api'
 subtitle = "学习如何调用qwen3-vl的api"
 description = "大创加油"

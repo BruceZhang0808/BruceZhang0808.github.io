@@ -1,13 +1,12 @@
 ---
 title: "DenseNet"
-subtitle: "Learning Hugo + LoveIt"
-date: 2025-07-31T10:00:00+02:00
+date: 2025-10-15
 draft: false
-tags: ["hugo", "loveit", "learning"]
-categories: ["blog"]
-author: "Your Name"
+tags: ["learning"]
+categories: ["notes"]
+author: "Bruce Zhang"
 
-summary: "This is my first post on my personal site using Hugo LoveIt theme. Exploring markdown, code blocks, images, and shortcodes."
+summary: "我关于 DenseNet 的学习笔记"
 ---
 
 # DenseNet网络学习笔记

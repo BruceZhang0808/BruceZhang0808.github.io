@@ -1,13 +1,12 @@
 ---
 title: "Iterator in python"
-subtitle: "Learning Hugo + LoveIt"
-date: '2025-11-24T19:34:57+08:00'
+date: '2025-11-24'
 draft: false
-tags: ["hugo", "loveit", "learning"]
-categories: ["blog"]
-author: "Your Name"
+tags: ["learning", "Python"]
+categories: ["notes"]
+author: "Bruce Zhang"
 
-summary: "This is my first post on my personal site using Hugo LoveIt theme. Exploring markdown, code blocks, images, and shortcodes."
+summary: "用一些例子学习 Python 迭代器用法"
 ---
 
 ## insert_items
